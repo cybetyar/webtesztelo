@@ -138,7 +138,7 @@ def whoisIt(url):
     if "whoisguard" in test or "protection" in test or "protected" in test:
         print '{} Whois Vedelem Bekapcsolva{}'.format(bad, end)
     else:
-        print '{} Whois informaciot talaltunk{}'.format(good, end)
+        print '{} Whois informaciok{}'.format(good, end)
         try:
             data = json.loads(who)
             for key in data.keys():
