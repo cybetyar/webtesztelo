@@ -260,7 +260,7 @@ try:
             url = target + '/' + link.url
             params.append(url)
     if len(params) == 0:
-        print '%s Nem talaltunk URL-t' % bad
+        print '%s Nem talaltunk ilyen URL-t' % bad
         quit()
     print '%s Talalat %i URL' % (good, len(params))
     for url in params:
