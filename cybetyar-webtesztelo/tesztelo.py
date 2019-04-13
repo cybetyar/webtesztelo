@@ -45,9 +45,10 @@ br.addheaders = [
 
 print'''\033[1;31m
 CYBEtyaR - A MAGYAR HACKER KOZOSSEG
-\\A szamitogep az ember logikai tovabbfejlesztese: intelligencia erkolcs nelkul//
+\\A szamitogep az ember logikai tovabbfejlesztese: intelligencia erkolcs nelkul/
+(Telegram: @cybetyar)
 \033[1;m'''
-target_input = raw_input('\033[1;34m[?]\033[1;m Ki a celpont: example( http://domain.com ) \n')
+target_input = raw_input('\033[1;34m[?]\033[1;m Ki a celpont: peldaul(http://torjfel.hu ) \n')
 parsed_uri = urlparse(target_input)
 
 if parsed_uri.scheme == '':
@@ -109,7 +110,7 @@ def cms(domain):
             else:
                 os.system('wpscan --random-agent --url %s' % domain)
         else:
-            print '%s %s ugy tunik a celpont nem hasznal CMS-t' % (info, domain)
+            print '%s %s ugy tunik nem hasznal CMS-t' % (info, domain)
     except:
         pass
 
