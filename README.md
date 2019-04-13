@@ -23,23 +23,27 @@ Beirjuk a tesztelni kivant honlap URL-jet, es a program magatol futtatja a teszt
 
 ## Telepites: (A kovetkezo parancsokat irjuk be terminalba, egyesevel)
 
-git clone https://github.com/cybetyar/weboldaltesztelo
-cd cybetyar-webtesztelo
-pip install -r requirements.txt
+- git clone https://github.com/cybetyar/webtesztprogi
+- cd ~webtesztprogi/cybetyar-webtesztelo
+- pip install -r requirements.txt
 
 ## Futtatas:
 
-python striker.py
+- python striker.py
 
 ## Kovetelmeny:
 
 A program Python nyelvben irodott, igy a telepitesehez es a futtatasahoz eloszor be kell szereznunk a Python-t.
 Ezt itt talalod: https://python.org/downloads
+
 -----------------------------------------
 Koszonjuk az otletet!
+-----------------------------------------
 
 Hivatalos Telegram Csatornank: t.me/cybetyar
+-----------------------------------------
 (Megkereseseket ide varunk: cybetyar gmail com)
+-----------------------------------------
 
-''Szaguld a sok megabyte, csak en latok benne bajt'' - Ismeretlen
+"At the end of the day, my goal was to be the best hacker" - Kevin Mitnick
 
