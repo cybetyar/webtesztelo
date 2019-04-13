@@ -23,13 +23,13 @@ Beirjuk a tesztelni kivant honlap URL-jet, es a program magatol futtatja a teszt
 
 ## Telepites: (A kovetkezo parancsokat irjuk be terminalba, egyesevel)
 
-git clone https://github.com/cybetyar/weboldaltesztelo
-cd cybetyar-webtesztelo
-pip install -r requirements.txt
+- git clone https://github.com/cybetyar/weboldaltesztelo
+- cd cybetyar-webtesztelo
+- pip install -r requirements.txt
 
 ## Futtatas:
 
-python striker.py
+python tesztelo.py
 
 ## Kovetelmeny:
 
